@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27056a91-b389-4907-94b0-50da6b087701" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SIT327 HD1 — Network Forensics.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UNSW_NB15_training-set.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comparison_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/export_unsw_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forensic_report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual_inspection_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network_forensics_analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/ai_analyzer_execution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/ai_forensic_report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/dataset_export.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/manual_dataset_review.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unsw_attack_sample.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3DDHtRIq17fqZL7OWkawoZE6iWm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.export_unsw_sample.executor": "Run",
+    "Python.network_forensics_analyzer.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-2ee2454479a3-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.122" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27056a91-b389-4907-94b0-50da6b087701" name="Changes" comment="" />
+      <created>1777809935094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777809935094</updated>
+    </task>
+    <servers />
+  </component>
+</project>

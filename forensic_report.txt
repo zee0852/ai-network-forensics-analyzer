@@ -1,0 +1,184 @@
+=== AI AUTOMATED NETWORK FORENSICS REPORT ===
+Generated: 2026-05-07 20:44:36
+
+=== EXTRACTED TRAFFIC EVIDENCE ===
+
+Total suspicious records analysed: 1000
+
+Attack category distribution:
+attack_cat
+Fuzzers           635
+Backdoor          242
+Analysis          105
+Reconnaissance     15
+Shellcode           3
+
+Protocol distribution:
+proto
+tcp            463
+unas           220
+udp            194
+ospf            13
+sctp             7
+any              3
+ipv6             3
+rsvp             2
+ib               2
+ddp              1
+ipv6-frag        1
+cftp             1
+wsn              1
+pvp              1
+wb-expak         1
+mtp              1
+pri-enc          1
+sat-mon          1
+cphb             1
+sun-nd           1
+iso-ip           1
+xtp              1
+il               1
+mfe-nsp          1
+3pc              1
+ipv6-route       1
+idrp             1
+bna              1
+swipe            1
+kryptolan        1
+cpnx             1
+wb-mon           1
+vmtp             1
+dgp              1
+eigrp            1
+ax.25            1
+gmtp             1
+pnni             1
+sep              1
+pgm              1
+idpr-cmtp        1
+zero             1
+rvd              1
+mobile           1
+narp             1
+fc               1
+pipe             1
+ipcomp           1
+ipv6-no          1
+sat-expak        1
+ipv6-opts        1
+snp              1
+ipcv             1
+br-sat-mon       1
+ttp              1
+tcf              1
+nsfnet-igp       1
+sprite-rpc       1
+aes-sp3-d        1
+sccopmce         1
+qnx              1
+scps             1
+etherip          1
+aris             1
+pim              1
+compaq-peer      1
+vrrp             1
+iatp             1
+stp              1
+l2tp             1
+srp              1
+sm               1
+isis             1
+smp              1
+fire             1
+ptp              1
+crtp             1
+sps              1
+merit-inp        1
+idpr             1
+skip             1
+larp             1
+ipip             1
+micp             1
+encap            1
+ifmp             1
+tp++             1
+a/n              1
+i-nlsp           1
+ipx-n-ip         1
+sdrp             1
+tlsp             1
+gre              1
+mhrp             1
+ddx              1
+ippc             1
+visa             1
+secure-vmtp      1
+uti              1
+vines            1
+crudp            1
+iplt             1
+
+Service distribution:
+service
+-       937
+ftp      38
+http     22
+dns       3
+
+Connection state distribution:
+state
+INT    531
+FIN    463
+CON      6
+
+Average source packets: 11.42
+Average destination packets: 4.46
+Average source bytes: 5914.77
+Average destination bytes: 297.91
+
+
+=== AI FORENSIC ANALYSIS ===
+ 1. Summary of suspicious findings: The network traffic analysis shows a si
+significant presence of Fuzzers (635 instances) and Backdoors (242 instance
+instances), which are known attack categories in the UNSW-NB15 intrusion da
+dataset. Other suspicious activities include Reconnaissance, Shellcode, Ana
+Analysis, and various protocols that are not commonly used, such as kryptol
+kryptolan, mfe-nsp, pvp, wb-expak, and br-sat-mon. The service distribution
+distribution shows a large number of connections to an unidentified service
+service (-937 instances), with a smaller number of connections to FTP (38 i
+instances) and HTTP (22 instances).
+
+2. Likely attack behaviour present: The high occurrence of Fuzzers indicate
+indicates a potential Denial-of-Service (DoS) or reconnaissance attack, as 
+Fuzzers are used to send malformed packets to a system in order to crash it
+it or gather information about its vulnerabilities. Backdoors suggest the p
+presence of persistent remote access, allowing an attacker to control compr
+compromised systems undetected. Reconnaissance activities may be employed b
+before launching more targeted attacks.
+
+3. Severity assessment: Given the large number of Fuzzers and Backdoor inst
+instances, the severity level of this network traffic is high. The attack c
+could potentially lead to a successful intrusion, data theft, or system cra
+crashes causing service disruptions.
+
+4. Why this traffic would require forensic attention: Analyzing this traffi
+traffic is essential to determine if any systems have been compromised, ide
+identify the attacker's tactics, and prevent further attacks. The presence 
+of Fuzzers, Backdoors, and uncommon protocols could indicate that an advanc
+advanced persistent threat (APT) is active on the network.
+
+5. Recommended investigative actions:
+   - Identify systems affected by the Fuzzers and Backdoor traffic to deter
+determine the extent of the compromise.
+   - Review log files from affected systems for indicators of compromise (I
+(IoCs), such as malicious IP addresses, unusual network activity patterns, 
+or modified system configurations.
+   - Investigate uncommon protocols and services to identify potential comm
+command-and-control (C2) channels or data exfiltration routes.
+   - Update security controls and firewall rules to block known attack vect
+vectors and prevent further intrusion attempts.
+   - Implement network monitoring tools to detect similar traffic patterns 
+in the future.
+   - Conduct post-incident response actions, such as patching identified vu
+vulnerabilities, cleaning affected systems, and notifying affected parties.
+
