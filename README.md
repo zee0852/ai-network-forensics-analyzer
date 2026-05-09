@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI-Assisted Network Forensics Analyzer
 
 ## Project Overview
@@ -130,3 +131,7 @@ The experiment demonstrated that traditional packet inspection remains valuable 
 # Status
 
 Completed as part of the Network Forensics Automation / AI Security Engineering Lab.
+=======
+# ai-network-forensics-analyzer
+AI-assisted network forensics automation project using Python, UNSW-NB15 dataset, and local LLM forensic triage workflows.
+>>>>>>> 02ca1b289546db6d952aba22c37ce7e93faedf4f
